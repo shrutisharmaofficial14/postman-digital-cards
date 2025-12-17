@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simran Rawat | Digital Visiting Card</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: #ffffff;
+      width: 100%;
+      max-width: 380px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      padding: 28px 24px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 22px;
+      margin: 0;
+      font-weight: 700;
+      color: #111827;
+    }
+    h2 {
+      font-size: 14px;
+      margin: 6px 0 14px;
+      font-weight: 500;
+      color: #4b5563;
+    }
+    .company {
+      font-size: 14px;
+      font-weight: 600;
+      color: #2563eb;
+      margin-bottom: 20px;
+    }
+    .actions a {
+      display: block;
+      text-decoration: none;
+      background: #111827;
+      color: #ffffff;
+      padding: 12px 14px;
+      border-radius: 10px;
+      margin-bottom: 12px;
+      font-size: 15px;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+    .actions a.secondary {
+      background: #2563eb;
+    }
+    .actions a.outline {
+      background: transparent;
+      color: #111827;
+      border: 1.5px solid #d1d5db;
+    }
+    .actions a:hover {
+      transform: translateY(-1px);
+      opacity: 0.95;
+    }
+    .footer {
+      font-size: 12px;
+      color: #6b7280;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Simran Rawat</h1>
+    <h2>Senior Executive – Sales Support</h2>
+    <div class="company">Postman Logistics Private Limited</div>
+
+    <div class="actions">
+      <a href="tel:+919892395242">📞 Call</a>
+      <a href="mailto:simran.rawat@postmanlogistics.com" class="secondary">✉️ Email</a>
+      <a href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AN:Rawat;Simran%0AFN:Simran Rawat%0AORG:Postman Logistics Private Limited%0ATITLE:Senior Executive – Sales Support%0ATEL;TYPE=CELL:+919892395242%0AEMAIL:simran.rawat@postmanlogistics.com%0AEND:VCARD" class="outline">💾 Save Contact</a>
+    </div>
+
+    <div class="footer">
+      Scan QR • Open Card • Save Contact
+    </div>
+  </div>
+</body>
+</html>
